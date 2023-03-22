@@ -22,6 +22,8 @@
   margin: 0%;
  }
 
+ /* navbar design start from here */
+
  .nav-logo>img{
 
   height: 60px;
@@ -38,6 +40,11 @@
   font-size: 1.2rem;
   text-decoration: none;
   color: white;
+ }
+ 
+ p{
+  font-size: 1.2rem;
+  text-align: justify;
  }
 
  [class*="col-"]{
@@ -89,3 +96,67 @@
  .nav-menu a:hover{
   background-color: gray;
  }
+ /* Navbar design ends here */
+
+
+ /* profile design starts from here */
+
+ .profile{
+
+  padding: 130px 10px;
+  position: relative;
+  text-align: center;
+
+ }
+
+ .profile img{
+  width: 100px;
+  height: 100px;
+ }
+
+ .profile .top-weather-icon{
+
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  transition: transform 2s;
+ }
+
+ .profile .top-weather-icon:hover{
+  transform: rotate(360deg);
+ }
+
+ .profile-description h1{
+
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+
+}
+
+.profile-description p{
+  text-align: center;
+  color: gray;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+ .profile .bottom-weather-icon{
+  position:absolute;
+  left: 60px;
+  bottom: 10px;
+  transition: transform 2s;
+
+}
+
+.profile .bottom-weather-icon:hover{
+  transform: rotate(360deg);
+}
+
+
+
+.profile{
+  content: '';
+  display: table;
+  clear: both;
+}
+ /* profile design ends here */

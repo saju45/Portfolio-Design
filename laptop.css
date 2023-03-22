@@ -16,6 +16,8 @@
   *{
     box-sizing: border-box;
   }
+
+  /* navbar design start from here */
   .nav-logo{
     text-align: left;
   }
@@ -39,3 +41,44 @@
     margin: 7px 0;
     background-color: transparent;
   }
+
+  /* navbar design ends here */
+
+  /* profile design starts from here */
+
+  .profile .top-weather-icon{
+    right: 100px;
+    width: 100px;
+    transition: width 2s,transform 2s;
+   }
+  
+   .profile .top-weather-icon:hover{
+    width: 120px;
+    transform: rotate(360deg);
+   }
+
+
+
+   .profile .bottom-weather-icon{
+    left: 100px;
+    bottom: 20px;
+    width: 100px;
+    transition: width 2s,transform 2s;
+   }
+  
+   .profile .bottom-weather-icon:hover{
+    width: 120px;
+    transform: rotate(360deg);
+   }
+
+
+.profile-description p{
+  text-align: center;
+  color: gray;
+  width: 50%;
+  margin: 0 auto ;
+  margin-bottom: 10px;
+}
+
+
+  /* profile design edns here */
